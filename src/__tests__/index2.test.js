@@ -4,7 +4,7 @@ import {
   fireEvent,
   cleanup,
   waitForElement,
-} from 'react-testing-library'
+} from '@testing-library/react'
 // import 'jest-dom/extend-expect'
 
 import App from '../index.js';
