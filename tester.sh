@@ -11,7 +11,7 @@ cp -r ./tests/src/__tests__ ./origin/src/
 cd origin
 npm install
 npm install --save-dev react-testing-library
-CI=true node ./node_modules/react-scripts/bin/react-scripts test --env=jsdom
+CI=true node ./node_modules/react-scripts/bin/react-scripts test --env=jsdom --json > ../../test.log
 cd ../..
 rm -rf ./tmp
 
